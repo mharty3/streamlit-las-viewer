@@ -8,15 +8,15 @@ st.write('For Denver Data Drivers')
 # set the mode: upload vs read from disk
 mode = st.radio(
     "Select an option:",
-    ('Upload File', 'Scan Directory')
+    ('Upload File', 'Use Preloaded File')
 )
 
 # Get a file
 if mode == 'Upload File':
     las_file_object = st.file_uploader('Upload a las file:', type=['las', 'LAS'])
 
-if mode == 'Scan Directory':
-    st.write("Sorry, I haven't finished this part yet")
+if mode == 'Use Preloaded File':
+    las_file_object = 'las_data_storage/49-WY/007-Carbon/4900722147_722147B.las'
 
 # Read the file
 if las_file_object:
