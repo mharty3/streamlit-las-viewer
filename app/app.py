@@ -2,7 +2,7 @@ import streamlit as st
 import lasio
 import plotly_express as px
 
-st.title('Fancy LAS Viewer')
+st.title('LAS Viewer')
 st.write('For Denver Data Drivers')
 
 # set the mode: upload vs read from disk
