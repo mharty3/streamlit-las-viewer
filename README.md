@@ -1,5 +1,5 @@
 # Streamlit LAS Viewer for Denver Datas Drivers
-An example streamlit app for visualizing log curves in las files. This repo is for a discussion for the Denver Data Drivers on July 28, 2020.
+An example streamlit app for visualizing log curves in las files. This repo is for a discussion for the Denver Data Drivers on July 28, 2020. The app is hosted on Heroku, and is running [here](https://streamlit-las-viewer.herokuapp.com/).
 
 ## Python environment set up
 If you want to follow along with the demonstration, you will need to set up a Python development environment with the required packages. The best way to do that is to use the conda package. If you don't have it, download and install miniconda from [here](https://docs.conda.io/en/latest/miniconda.html).
